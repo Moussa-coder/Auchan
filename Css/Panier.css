@@ -1,0 +1,36 @@
+ /* Panier */
+ .cart-sidebar {
+     position: fixed;
+     right: -400px;
+     top: 0;
+     width: 300px;
+     height: 100%;
+     background-color: #f4f4f4;
+     padding: 20px;
+     box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
+     transition: right 0.4s ease;
+     z-index: 1000;
+ }
+
+ .cart-sidebar.show {
+     right: 0;
+ }
+
+ #cart-items {
+     max-height: 60vh;
+     overflow-y: auto;
+ }
+
+ button {
+     background-color: #e60000;
+     color: #fff;
+     border: none;
+     padding: 10px;
+     width: 100%;
+     cursor: pointer;
+     border-radius: 5px;
+ }
+
+ button:hover {
+     background-color: #c50000;
+ }

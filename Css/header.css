@@ -1,0 +1,51 @@
+  /* Reset et styles de base */
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Arial', sans-serif;
+  }
+ .header {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     background-color: #e60000;
+     padding: 10px 20px;
+     color: #fff;
+ }
+
+ .logo {
+     width: 100px;
+     height: auto;
+ }
+
+ .nav-bar {
+     flex: 1;
+     margin: 0 20px;
+ }
+
+ .recherche {
+     width: 100%;
+     padding: 10px;
+     border-radius: 5px;
+     border: none;
+ }
+
+ .user-actions {
+     display: flex;
+     align-items: center;
+     gap: 18px;
+ }
+
+ .user-actions i {
+     font-size: 1.5rem;
+     cursor: pointer;
+ }
+
+ #span {
+     background-color: #fff;
+     color: #e60000;
+     padding: 3px 8px;
+     border-radius: 50%;
+     font-weight: bold;
+ }
