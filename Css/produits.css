@@ -56,7 +56,7 @@ body {
 
 /* Bouton Ajouter au panier */
 .ajouter-panier {
-    background-color: #27ae60;
+    background-color:rgb(231, 41, 41);
     color: white;
     border: none;
     padding: 10px 15px;

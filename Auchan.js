@@ -31,7 +31,9 @@ const produits = [
     { nom: "Coca-Cola 1,5L", prix: 800, image: "./Assets/Coca Cola 27.jpg" },
     { nom: "Eau minérale Kirène 1,5L", prix: 500, image: "./Assets/Kirène 28.jpg" },
     { nom: "Boisson énergisante XXL", prix: 700, image: "./Assets/Boison 29.jpg" },
-    { nom: "Jus de mangue 1L", prix: 950, image: "./Assets/Jus 30.jpg" }
+    { nom: "Jus de mangue 1L", prix: 950, image: "./Assets/Jus 30.jpg" },
+    { nom: "Eau minérale Kirène 1,5L", prix: 500, image: "./Assets/Kirène 28.jpg" },
+    { nom: "Boisson énergisante XXL", prix: 700, image: "./Assets/Boison 29.jpg" },
 ];
 
 const afficherProduits = () => {
